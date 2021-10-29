@@ -1,1 +1,1 @@
-GET https://api.thecatapi.com/v1/images/search?breed_ids=beng&apiKey=YOUR-API-KEY
+GET https://api.thecatapi.com/v1/images/search?breed_ids=beng&apiKey=#{Rails.application.credentials.news_api[:api_key]}
